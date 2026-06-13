@@ -1,0 +1,13 @@
+name = "CreateTobi"
+author = "TobiHDD"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8ee6528608023066c194e4551bde5e714930781487a42be1f7ea74efee808d68"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"
