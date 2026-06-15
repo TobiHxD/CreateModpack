@@ -31,6 +31,11 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
+file = "mods/exposure.pw.toml"
+hash = "28c29922378fa19f4edf1d16fffb48287a87be159a3378647073bbdebd2a2196"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
