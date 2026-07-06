@@ -131,6 +131,11 @@ hash = "07c1d1a846572a60bf88dc54977d9a65d20f74c19209cb82e8d7dfe0d3cdfadf"
 metafile = true
 
 [[files]]
+file = "mods/saecularia-caudices.pw.toml"
+hash = "1675b41b9d2df2b77b90b4e96bc9b961bc15b2edca4a99483113c1596acd6924"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "a4af1bf7389eddd65fb5b665b711e0b25e9e8ccb6b17a1fb50aff8d886859ad6"
 metafile = true
