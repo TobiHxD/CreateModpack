@@ -45,11 +45,11 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
           args: |
-            @mc Das Modpack wurde aktualisiert.
+            <@&1516779713438285834> Das Modpack wurde aktualisiert.
 
             Der Server wird nun neugestartet. Denke daran dein Spiel neuzustarten, um die neuen Mods zu erhalten.
 
             Änderungen:
             ${{ github.event.head_commit.message }}
 
-            (${{ github.event.head_commit.url }})
+            (<${{ github.event.head_commit.url }}>)
