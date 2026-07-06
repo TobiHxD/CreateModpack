@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/badpackets.pw.toml"
+hash = "e53392cab6393798f95c4ad012dcbd9a5a55d02ef2861ac0c23bee972686dddc"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "76122ac2bb341daceebb19cd69e1f3bf19efea88fa59010865c1b8f02ea1d759"
 metafile = true
@@ -168,6 +173,11 @@ metafile = true
 [[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
 hash = "ee8f963ec9dc72467d15af46af53685bc2b199b232c738006e98d91e897834c2"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+hash = "05e353d7f33a21a9cda43b2985ecfa595dd533a63eafc0530534ebee0c0c4bc8"
 metafile = true
 
 [[files]]
