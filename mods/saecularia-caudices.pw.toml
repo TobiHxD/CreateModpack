@@ -1,8 +1,0 @@
-name = "Saecularia Caudices"
-filename = "neoforge-21.1.11.jar"
-side = "both"
-
-[download]
-url = "https://ldtteam.jfrog.io/artifactory/communi-suggestu-maven/com/communi-suggestu/saecularia-caudices/neoforge/21.1.11/neoforge-21.1.11.jar"
-hash-format = "sha256"
-hash = "3b69032483abca4e8249f93946437b2b4b40190347c0924d141ac18a713cdac4"

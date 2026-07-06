@@ -1,8 +1,0 @@
-name = "Saecularia Caudices Core"
-filename = "core-21.1.11.jar"
-side = "both"
-
-[download]
-url = "https://ldtteam.jfrog.io/artifactory/communi-suggestu-maven/com/communi-suggestu/saecularia-caudices/core/21.1.11/core-21.1.11.jar"
-hash-format = "sha256"
-hash = "8a1a3ac19a3f306a6b2cc26cd7845ccd34135d85e7b8727bf5394a5cccbac6bf"

@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/chisels-bits.pw.toml"
-hash = "774b3afab92d453d928b18808eabb5416c84d9fdc4c3450e7becad6f702d04e5"
+hash = "6131963e3ef7760cf0f98d01d11bdf58781b4bc47e0a6d3349cca2e7cbedb30b"
 metafile = true
 
 [[files]]
@@ -128,16 +128,6 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "07c1d1a846572a60bf88dc54977d9a65d20f74c19209cb82e8d7dfe0d3cdfadf"
-metafile = true
-
-[[files]]
-file = "mods/saecularia-caudices-core.pw.toml"
-hash = "da8ccb351f9cd3abd6670d9adca272e19c4a15c8fc3008487d9972be782523d9"
-metafile = true
-
-[[files]]
-file = "mods/saecularia-caudices.pw.toml"
-hash = "1675b41b9d2df2b77b90b4e96bc9b961bc15b2edca4a99483113c1596acd6924"
 metafile = true
 
 [[files]]
