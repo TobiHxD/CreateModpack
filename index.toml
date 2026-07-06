@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "76122ac2bb341daceebb19cd69e1f3bf19efea88fa59010865c1b8f02ea1d759"
+metafile = true
+
+[[files]]
 file = "mods/bclib-neoforge.pw.toml"
 hash = "b8f9ab3c229ca511126a007b17916155252e510a25368c2277d6896503ee7d97"
 metafile = true
@@ -131,6 +136,11 @@ hash = "18ca1d438084a8578f4b75f12233db58ca1deec55f117fb875afa21f2c021559"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+hash = "b09f7819bbd22c2cc6a70601295721cb3bee6d830ca2f51fdacb50de519596e8"
+metafile = true
+
+[[files]]
 file = "mods/structory.pw.toml"
 hash = "e2ab46d275b5037d19198f4cff55fe3e4672c3f5c8ca60e91d3b3e57ab13810c"
 metafile = true
@@ -148,6 +158,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "5518dd2f6a5d88e4affb9df628604737893025206d7149579e4c24f909b130a3"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "6469e09b6d02aa3f1aeb653c9e33ec948e2bd9d09cabc60a834552783120c018"
 metafile = true
 
 [[files]]
