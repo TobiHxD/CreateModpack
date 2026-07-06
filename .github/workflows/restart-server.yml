@@ -11,28 +11,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Wait for GitHub Raw Storage to Propagate
+      - name: Wait for GitHub Pages to Propagate
         env:
-          RAW_URL: https://raw.githubusercontent.com/TobiHxD/CreateModpack/refs/heads/main/pack.toml
+          PAGES_URL: https://tobihxd.github.io/CreateModpack/pack.toml
         run: |
           set -euo pipefail
 
           expected="$(cat pack.toml)"
 
-          # Checks if the GitHub raw content matches the expected content every 5 seconds for up to 10 minutes (120 attempts). 
+          # Wait until GitHub Pages serves the new pack.toml before restarting the server.
           for attempt in {1..120}; do
-            current="$(curl -fsSL -H 'Cache-Control: no-cache' "$RAW_URL" || true)"
+            current="$(curl -fsSL -H 'Cache-Control: no-cache' "$PAGES_URL" || true)"
 
             if [ "$current" = "$expected" ]; then
-              echo "GitHub raw is up to date."
+              echo "GitHub Pages is up to date."
               exit 0
             fi
 
-            echo "Waiting for GitHub raw to update ($attempt/120)..."
+            echo "Waiting for GitHub Pages to update ($attempt/120)..."
             sleep 5
           done
 
-          echo "::error::GitHub raw did not update within 10 minutes."
+          echo "::error::GitHub Pages did not update within 10 minutes."
           exit 1
 
   notify-discord:
