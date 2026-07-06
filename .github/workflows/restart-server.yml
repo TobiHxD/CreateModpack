@@ -7,7 +7,7 @@ on:
 
 jobs:
   wait-for-propagation:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v4
 
@@ -36,7 +36,7 @@ jobs:
           exit 1
 
   notify-discord:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     needs: wait-for-propagation
     steps:
       - name: Notify Discord
