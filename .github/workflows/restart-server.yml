@@ -1,0 +1,55 @@
+name: Restart Server on Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  wait-for-propagation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for GitHub Raw Storage to Propagate
+        env:
+          RAW_URL: https://raw.githubusercontent.com/TobiHxD/CreateModpack/refs/heads/main/pack.toml
+        run: |
+          set -euo pipefail
+
+          expected="$(cat pack.toml)"
+
+          # Checks if the GitHub raw content matches the expected content every 5 seconds for up to 10 minutes (120 attempts). 
+          for attempt in {1..120}; do
+            current="$(curl -fsSL -H 'Cache-Control: no-cache' "$RAW_URL" || true)"
+
+            if [ "$current" = "$expected" ]; then
+              echo "GitHub raw is up to date."
+              exit 0
+            fi
+
+            echo "Waiting for GitHub raw to update ($attempt/120)..."
+            sleep 5
+          done
+
+          echo "::error::GitHub raw did not update within 10 minutes."
+          exit 1
+
+  notify-discord:
+    runs-on: ubuntu-latest
+    needs: wait-for-propagation
+    steps:
+      - name: Notify Discord
+        uses: Ilshidur/action-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        with:
+          args: |
+            @mc Das Modpack wurde aktualisiert.
+
+            Der Server wird nun neugestartet. Denke daran dein Spiel neuzustarten, um die neuen Mods zu erhalten.
+
+            Änderungen:
+            ${{ github.event.head_commit.message }}
+
+            (${{ github.event.head_commit.url }})
