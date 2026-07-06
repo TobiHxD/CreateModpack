@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: restart-server-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   wait-for-propagation:
     runs-on: ubuntu-slim
