@@ -1,6 +1,7 @@
 name = "Chisels & Bits - For Forge"
 filename = "chisels-and-bits-neoforge-21.1.32.jar"
 side = "both"
+# Pinned: 21.1.33 crashes on NeoForge 1.21.1 with missing Saecularia Caudices core classes.
 pin = true
 
 [download]
