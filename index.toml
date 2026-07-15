@@ -11,6 +11,16 @@ hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mobs(1.21.1).pw.toml"
+hash = "fb53bc6c0d543cd7e88a5faba1e3235dca6c556e0cf8c1a534bbdec581c3c2f8"
+metafile = true
+
+[[files]]
+file = "mods/ante.pw.toml"
+hash = "28a347f91bbad2721f385cbfa31c75ddcd35de3e5e226e79abc6b5dce25869cb"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
@@ -51,6 +61,10 @@ hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
 metafile = true
 
 [[files]]
+file = "mods/buildworld-1.0-SNAPSHOT.jar"
+hash = "ed43f28e68ea003531243cd649b8949295f1e066ea7bb3a2b1545ea64682e780"
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "a95a3fa95f9232f4ec7a32e579ca0d80f545e66618ad60821af59df7b5c50d2c"
 metafile = true
@@ -73,6 +87,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
@@ -306,11 +325,6 @@ hash = "a2fbecad69fcbff54919864ea8b95e54d140a1a2c637d73307fb366e76066fe6"
 metafile = true
 
 [[files]]
-file = "mods/incendium.pw.toml"
-hash = "ef1faa467f5dfd37c40871575934dab645f15a70568e8268a9e477234bdd1c58"
-metafile = true
-
-[[files]]
 file = "mods/interiors.pw.toml"
 hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
 metafile = true
@@ -326,13 +340,13 @@ hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
-file = "mods/lithium.pw.toml"
-hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
+file = "mods/light-it-up-atlasplays.pw.toml"
+hash = "697d7d2740f18b80a5c9ccc53018b68fb4353a467472f431fb3992d03a33eec4"
 metafile = true
 
 [[files]]
-file = "mods/luckperms.pw.toml"
-hash = "f1ae1a2dd242eb23b13eea816fe12da4f369a61bd3820d967be1777a51ff8f6b"
+file = "mods/lithium.pw.toml"
+hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
 metafile = true
 
 [[files]]
@@ -348,6 +362,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
@@ -373,6 +392,11 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "07c1d1a846572a60bf88dc54977d9a65d20f74c19209cb82e8d7dfe0d3cdfadf"
+metafile = true
+
+[[files]]
+file = "mods/seagull-killer.pw.toml"
+hash = "e4e14ee718306c70d422cda01ccd2c7e85be3422656a19436a1697845e46a575"
 metafile = true
 
 [[files]]
@@ -443,6 +467,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/torchmaster.pw.toml"
+hash = "23ea2c32834281723c63d45ffe42969172492d36309755a46bc47154c3014b3f"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Seagull Killer"
+filename = "seagullkiller-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6DJ6QTE9/versions/g48o0Un9/seagullkiller-1.0.1.jar"
+hash-format = "sha512"
+hash = "1f0d90d90e2e715060dac435f87c009b38c9e42e25d8a388e32d25e2d3e483e7779e9493d2642d3f6b5a3589fd64e4505807f3966586335d49a4337114db08d4"
+
+[update]
+[update.modrinth]
+mod-id = "6DJ6QTE9"
+version = "g48o0Un9"
