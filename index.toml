@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/buildworld-1.0-SNAPSHOT.jar"
-hash = "6cddd7f5b84865cb9a41f18fb023958a5836f9f9d6f09e73a75346fc6c8e6633"
+hash = "93cbb529431f90220781f0ef149b5a04034c4f9c94e3148c2531289116b76414"
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
@@ -332,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "91e6a0e562023e927ca1c56bdfd5df673609cac23528f768a83afe3674cdd0c0"
 metafile = true
 
 [[files]]
