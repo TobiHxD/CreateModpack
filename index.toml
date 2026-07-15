@@ -51,10 +51,6 @@ hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
 metafile = true
 
 [[files]]
-file = "mods/buildworld-1.0-SNAPSHOT.jar"
-hash = "9185368d7771444f46bdc6409610f9d378c032f1c1d1521b8b88483003fd9e87"
-
-[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "a95a3fa95f9232f4ec7a32e579ca0d80f545e66618ad60821af59df7b5c50d2c"
 metafile = true
