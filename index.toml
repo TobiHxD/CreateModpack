@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/buildworld-1.0-SNAPSHOT.jar"
-hash = "9185368d7771444f46bdc6409610f9d378c032f1c1d1521b8b88483003fd9e87"
+hash = "6cddd7f5b84865cb9a41f18fb023958a5836f9f9d6f09e73a75346fc6c8e6633"
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
@@ -457,6 +457,16 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "6469e09b6d02aa3f1aeb653c9e33ec948e2bd9d09cabc60a834552783120c018"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-forge.pw.toml"
+hash = "26da583167cf97e2dd89bdf738dd2ad1358237c2b87ce3b593f47f6df1269df5"
 metafile = true
 
 [[files]]
