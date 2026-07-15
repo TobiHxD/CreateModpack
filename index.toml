@@ -221,6 +221,11 @@ hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
 metafile = true
 
 [[files]]
+file = "mods/create-waystones-recipes.pw.toml"
+hash = "556a6d6bbc2a5d1449fdbc09cef6ab7c776377cbe4b5fc7f47f885557f6522ec"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -401,6 +406,11 @@ hash = "e6ff1f816faa83ba09dd6bbc3ad72d46c77379211ff0de16b882fc758e32bbab"
 metafile = true
 
 [[files]]
+file = "mods/spartan-weaponry-unofficial.pw.toml"
+hash = "a9ead6b4f9f1648ffea85b731cedb0d43bc9b9ff766854fe73294d8c778ea8de"
+metafile = true
+
+[[files]]
 file = "mods/ssrd.pw.toml"
 hash = "e11d2e233aecbb9bf9fa8db6a6290a9f0a631ba4b2dbfec985c0e2d60d72d401"
 metafile = true
@@ -453,4 +463,9 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "66f85f7c21c70440f919d91a96190854c9af6b50f2214153ea0ab0a5c949ccdc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-waystones-texture-+-gui.pw.toml"
+hash = "9e77cd5c9c9b584c44ed4be0fe93aaaf8777a20720e918364cac065fa24eeeda"
 metafile = true
