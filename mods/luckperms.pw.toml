@@ -1,13 +1,13 @@
 name = "LuckPerms"
-filename = "LuckPerms-NeoForge-5.4.140.jar"
+filename = "LuckPerms-NeoForge-5.4.139.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/Vebnzrzj/versions/rnvg05YO/LuckPerms-NeoForge-5.4.140.jar"
+url = "https://cdn.modrinth.com/data/Vebnzrzj/versions/MwOI6EAP/LuckPerms-NeoForge-5.4.139.jar"
 hash-format = "sha512"
-hash = "50d94c5a9d2635a445a2bd4f2f16c22172678b93315e3d91fa0829349ccd2b02944354af7baa3e6ae0c7bfe19f497b09af461f84aacc93900b59b75a07cd0290"
+hash = "ee5176b71d2a7db853e579ad5e99a1fb7c0777a248c089aee3cc07fb23bcd23ba7d15f7330635e9cc773f6f0a3424ff0b91186534c66818e7d379136b96b6897"
 
 [update]
 [update.modrinth]
 mod-id = "Vebnzrzj"
-version = "rnvg05YO"
+version = "MwOI6EAP"
