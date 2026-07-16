@@ -320,6 +320,11 @@ hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
+metafile = true
+
+[[files]]
 file = "mods/hypertube.pw.toml"
 hash = "7ada38839639eaea9c5bcf6e3f861004d0a85452d22ee2d62609f13940249721"
 metafile = true
