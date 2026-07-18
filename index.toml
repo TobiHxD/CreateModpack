@@ -156,6 +156,11 @@ hash = "b09f7819bbd22c2cc6a70601295721cb3bee6d830ca2f51fdacb50de519596e8"
 metafile = true
 
 [[files]]
+file = "mods/storage-drawers-create-compat.pw.toml"
+hash = "4514e495c19d9631ad325bc94d0b6ed86085dcda4b3ce46f533a86dce3240143"
+metafile = true
+
+[[files]]
 file = "mods/storagedrawers.pw.toml"
 hash = "1d277d4c4d8f3abc49176d3b029584b70d92dcb9b89cf2cf6094e674fe9885c8"
 metafile = true
