@@ -490,11 +490,6 @@ hash = "5518dd2f6a5d88e4affb9df628604737893025206d7149579e4c24f909b130a3"
 metafile = true
 
 [[files]]
-file = "mods/trinkets-and-baubles-reforked.pw.toml"
-hash = "c530cb40d3b01fe0a41ca9c69c9e2ab85f05dca43190b3c5256d98d221324ac0"
-metafile = true
-
-[[files]]
 file = "mods/waystones.pw.toml"
 hash = "6469e09b6d02aa3f1aeb653c9e33ec948e2bd9d09cabc60a834552783120c018"
 metafile = true
