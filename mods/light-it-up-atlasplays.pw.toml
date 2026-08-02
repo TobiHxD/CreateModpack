@@ -1,0 +1,13 @@
+name = "Light It Up"
+filename = "light-it-up-atlasplays-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6l1iFSD6/versions/hHei3PLE/light-it-up-atlasplays-1.2.0.jar"
+hash-format = "sha512"
+hash = "d7b246e8153f12a9a3f8d6842b187af56522180016eef19300c6aedbc2b630bd0f0bd2b010f144069a57d52b401b26ffce4b8339d371f01d28867ee228e1cae4"
+
+[update]
+[update.modrinth]
+mod-id = "6l1iFSD6"
+version = "hHei3PLE"
