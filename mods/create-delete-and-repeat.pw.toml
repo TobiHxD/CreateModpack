@@ -1,0 +1,13 @@
+name = "Create: Delete and Repeat"
+filename = "create_delete_and_repeat-1.3.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zsq68DUA/versions/maeKWzjp/create_delete_and_repeat-1.3.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "bf5e586c82953f1459c56268c7b9e17a3507d42fb8f931c2b5a0f69c4ad5a4af964a8d2cae0891e3f3ae3d041222e8518bb3e2fdfcc0eea065a0a56ae2e85e0c"
+
+[update]
+[update.modrinth]
+mod-id = "Zsq68DUA"
+version = "maeKWzjp"
