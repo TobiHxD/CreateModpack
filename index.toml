@@ -361,7 +361,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersivemusicmod.pw.toml"
-hash = "4f7f641ae9b6c17fd302289c7f79b0afff7c54b10106f9b68c7220a1623aab22"
+hash = "529c0c0d39ab1857f141b1f981447784954dc752078640e33e92834bac0ec863"
 metafile = true
 
 [[files]]
